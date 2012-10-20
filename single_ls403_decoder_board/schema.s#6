@@ -662,7 +662,7 @@ grid 2.54 mm, diameter 6 mm</description>
 <part name="U$5" library="library" deviceset="+5V" device=""/>
 <part name="CON1" library="library" deviceset="LS403_INPUT_CONNECTOR" device=""/>
 <part name="R19" library="library" deviceset="R" device="R0805" value="1M"/>
-<part name="R22" library="library" deviceset="R" device="12MM_RASTER_AXIAL" value="1M"/>
+<part name="R22" library="library" deviceset="R" device="R0805" value="1M"/>
 <part name="R23" library="library" deviceset="R" device="R0805" value="1M"/>
 <part name="R24" library="library" deviceset="R" device="R0805" value="1M"/>
 <part name="R25" library="library" deviceset="R" device="R0805" value="1M"/>
@@ -790,11 +790,9 @@ grid 2.54 mm, diameter 6 mm</description>
 <instance part="U$8" gate="G$1" x="127" y="-101.6"/>
 <instance part="U$9" gate="G$1" x="-27.94" y="-22.86"/>
 <instance part="LM358N_2" gate="_G1" x="40.64" y="-114.3" rot="MR180"/>
-<instance part="LM358N_2" gate="_G2" x="40.64" y="-137.16" rot="MR180"/>
 <instance part="LM358N_2" gate="_V+" x="7.62" y="-195.58"/>
 <instance part="LM358N_2" gate="_V-" x="43.18" y="-195.58"/>
 <instance part="LM393N_2" gate="_G1" x="101.6" y="-116.84"/>
-<instance part="LM393N_2" gate="_G2" x="129.54" y="-139.7"/>
 <instance part="LM393N_2" gate="_V+" x="93.98" y="-177.8"/>
 <instance part="LM393N_2" gate="_V-" x="134.62" y="-175.26"/>
 <instance part="GND1" gate="1" x="35.56" y="-218.44"/>

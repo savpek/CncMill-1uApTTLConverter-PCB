@@ -748,12 +748,12 @@ grid 2.54 mm, diameter 6 mm</description>
 <part name="GND11" library="library" deviceset="GND" device=""/>
 <part name="GND12" library="library" deviceset="GND" device=""/>
 <part name="GND6" library="library" deviceset="GND" device=""/>
-<part name="C4" library="library" deviceset="C_POL" device=""/>
+<part name="C4" library="library" deviceset="C_POL" device="" value="22uF"/>
 <part name="CON2" library="connectors" deviceset="CONNECTOR_10PIN" device="GENERIC2X5">
 <attribute name="PIN10" value="GND"/>
-<attribute name="PIN7" value="ENC_QA"/>
-<attribute name="PIN8" value="ENC_QB"/>
-<attribute name="PIN9" value="ENC_QIDX"/>
+<attribute name="PIN7" value="QA"/>
+<attribute name="PIN8" value="QB"/>
+<attribute name="PIN9" value="QIDX"/>
 </part>
 </parts>
 <sheets>
@@ -1289,6 +1289,7 @@ grid 2.54 mm, diameter 6 mm</description>
 <pinref part="R23" gate="G$1" pin="P$2"/>
 <pinref part="R19" gate="G$1" pin="P$1"/>
 <pinref part="LM358N_2" gate="_G1" pin="-"/>
+<junction x="30.48" y="-111.76"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -1306,6 +1307,7 @@ grid 2.54 mm, diameter 6 mm</description>
 <pinref part="R19" gate="G$1" pin="P$2"/>
 <pinref part="LM393N_2" gate="_G1" pin="-"/>
 <pinref part="LM358N_2" gate="_G1" pin="OUT"/>
+<junction x="58.42" y="-114.3"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -1340,6 +1342,7 @@ grid 2.54 mm, diameter 6 mm</description>
 <pinref part="R24" gate="G$1" pin="P$2"/>
 <pinref part="R25" gate="G$1" pin="P$2"/>
 <pinref part="LM358N_2" gate="_G1" pin="+"/>
+<junction x="30.48" y="-116.84"/>
 </segment>
 </net>
 <net name="N$20" class="0">
